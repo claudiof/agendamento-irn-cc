@@ -14,18 +14,21 @@
   </head>
   <body>
     <div class="container">
-        <h1>Datas para marcações de CC</h1>
+        
+        <h2>Datas para marcações de renovação de CC</h2>
 
-        <table id="cc-data-table" class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Distrito</th>
-                    <th>Concelho</th>
-                    <th>Local</th>
-                    <th style="width: 100px;">Data</th>
-                </tr>
-            </thead>
-        </table>
+        <div class="datatable-container mt-5">
+            <table id="cc-data-table" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Distrito</th>
+                        <th>Concelho</th>
+                        <th>Local</th>
+                        <th style="width: 100px;">Data</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
