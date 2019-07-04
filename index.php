@@ -40,6 +40,9 @@
         $(document).ready(function() {
             $('#cc-data-table').DataTable( {
                 "pageLength": 50,
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Portuguese.json"
+                },
                 "ajax": {
                     url: "https://tomahock.com/cenas/agendamento-irn/data.json?<?=date("Ymdhi")?>",
                     dataSrc: ''
