@@ -44,7 +44,7 @@
                     "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Portuguese.json"
                 },
                 "ajax": {
-                    url: "https://tomahock.com/cenas/agendamento-irn/data.json?<?=date("Ymdhi")?>",
+                    url: "https://tomahock.com/cenas/agendamento-irn/data.json?<?=date("Ymdh")?>",
                     dataSrc: ''
                 },
                 "columns": [
