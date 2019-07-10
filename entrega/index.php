@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
  
-    <title>Datas para agendamento de renovação de CC</title>
+    <title>Datas para agendamento de entrega de CC</title>
 
   </head>
   <body>
@@ -20,10 +20,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="/">Consultar Datas de Renovação <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="/entrega">Consultar Datas de Entrega</a>
             </li>
         </ul>
@@ -32,7 +32,7 @@
 
     <div class="container">
         
-        <h2>Datas para agendamento de renovação de CC</h2>
+        <h2>Datas para agendamento de entrega de CC</h2>
 
         <div class="datatable-container mt-5">
             <table id="cc-data-table" class="table table-striped">
@@ -61,7 +61,7 @@
                     "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Portuguese.json"
                 },
                 "ajax": {
-                    url: "https://tomahock.com/cenas/agendamento-irn/data.json?<?=date("Ymdh")?>",
+                    url: "https://tomahock.com/cenas/agendamento-irn/data-entrega.json?<?=date("Ymdh")?>",
                     dataSrc: ''
                 },
                 "columns": [
